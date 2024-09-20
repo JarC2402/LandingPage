@@ -1,0 +1,1128 @@
+body {
+    font-family: 'Montserrat', sans-serif, Helvetica, Arial, Lucida Sans ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ /* ---------------------------------------------------------------------------------------- Nav */
+nav {
+    background-color: #009EFF; /* Color de fondo azul */
+    text-align: center; /* Centrar el texto */
+    padding: 10px 0; /* Espaciado arriba y abajo */
+  }
+  
+  nav a {
+    color: white; /* Color del texto blanco */
+    font-size: 36px; /* Tamaño de fuente grande */  
+    font-weight: bold; /* Texto en negrita */
+    text-decoration: none; /* Sin subrayado */
+  }
+  
+  nav a:hover {
+    text-decoration: underline; /* Subrayar al pasar el cursor */
+  }
+ /* ---------------------------------------------------------------------------------------- INTRO*/
+ .app-container{
+  background-blend-mode: multiply;
+  background-image: url(https://mentors.expert/wp-content/uploads/2024/03/BACK1.jpg), linear-gradient(180deg, #00a2ff 0%, #35d3ff 100%) !important;   
+  background-size: cover; /* Hace que la imagen cubra todo el área del fondo */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */ 
+  display: flex;    
+  flex-direction: column; 
+  align-items: center;    
+  font-weight: bold;
+  width: 100%;
+ height: auto; 
+ 
+  padding: 48px 0px 14px;   
+}
+
+.nav-image {
+  width: 100%; /* Ajusta el ancho al 100% del contenedor */
+  display: flex; /* Activa Flexbox */
+  justify-content: center; /* Centra el contenido horizontalmente */
+  margin: 20px 0; /* Añade un margen superior e inferior */  
+}
+
+.nav-image img {
+  width: auto; /* Permite que la imagen se ajuste automáticamente */
+  height: auto;
+  max-width: 205px; /* Limita el tamaño máximo de la imagen */
+  max-height: 107px; /* Limita el tamaño máximo de la imagen */
+}
+
+.text1 {
+  width: 80%;
+  text-align: center; /* Centra el texto */
+  display: flex;    
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.headline {
+  color: #00A2FF;
+  font-size: 40px;
+  width: 90%;
+  margin-bottom: 53px;
+}
+
+.highlight, .highlight2, .highlight3 {
+  color: #FFFFFF;
+}
+
+.highlight2 {
+  font-size: 30px;
+  width: 80%; 
+  margin-bottom: 40px;
+}
+
+.highlight3 {
+  font-size: 19px;
+  width: 70%;
+}
+    
+   /* ---------------------------------------------------------------------------------------- Video Section */
+
+.videoContainer{
+    display: flex; 
+    align-items: center;
+    flex-direction: column;    
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-image: url(https://mentors.expert/wp-content/uploads/2024/03/BACK2.jpg), linear-gradient(180deg, #cecfcf 0%, #7f7f81c5 100%) !important;
+    width: 100%;
+    padding-top: 48px;
+    margin: 0px;
+  }
+
+.video {
+    width: 80%;
+    max-width: 1000px; /* Tamaño máximo del video */
+    border: solid white;
+    border-radius: 15px; /* Redondear los bordes */
+    overflow: hidden; /* Evitar que el contenido sobresalga del borde */
+  }
+
+.video video {
+  width: 100%; /* Hace que el video ocupe todo el ancho del contenedor */
+  height: auto; /* Mantiene la proporción del video */
+  }
+
+.text1 {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 1090px;
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 1.3;
+}
+/* ---------------------------------------------------------------------------------------- Pack Section */
+.bigTitle {
+  font-size: 91px;
+  margin-top: 24px;
+  color: white;
+  font-weight: 900;
+  padding: 1px;
+}
+
+.bigTitle1{
+  font-size: 41px;
+  color: white;
+  font-weight: 900;
+}
+
+.packSection{
+  text-align: center;
+  background-blend-mode: multiply;
+  background-image: url(https://mentors.expert/wp-content/uploads/2024/03/BACK1.jpg), linear-gradient(180deg, #00a2ff 0%, #35d3ff 100%) !important;   
+  background-size: cover; /* Hace que la imagen cubra todo el área del fondo */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  padding-top: 70px;
+}
+
+.packContainer {
+  display: flex;
+  justify-content: center; /* Centra los divs horizontalmente en pantallas grandes */
+  gap: 5px; /* Espacio entre los divs */
+  flex-wrap: wrap; /* Permite que los divs se envuelvan a la siguiente línea si es necesario */   
+}
+
+.pack {
+  width: 362px;
+  font-size: 46px;
+  background-color: rgb(59, 68, 71); /* Color de fondo para visualizar los divs */
+  display: flex;
+  flex-direction: column;    
+  align-items: center;
+  overflow: hidden; /* Evita que el contenido desborde el div */  
+  border-radius: 20px; /* Redondear los bordes */ 
+  margin: 15px;
+  margin-top: 40px;
+  color: #000000;
+  padding: 12.6px;
+}
+
+.a { 
+  background-color: #DBDBDB;
+  text-align: center;
+}
+
+.pack img {
+  width: 330px;
+  height: auto;
+  align-self: center;
+}
+
+.PackTittle {
+  font-size: 46px;
+  font-weight: 900;
+}
+
+.packDescription{
+  font-size: 14px;
+  text-align: left; /* Alinea el texto a la izquierda */  
+  line-height: 20px;
+}
+
+.packDescription ul {
+  padding-left: 10px;
+}
+
+.packRed{
+  color: #f93422;
+  font-size: 37px;
+  margin: 0px;
+  text-decoration: line-through;
+  font-weight: 900;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 3); /* Sombra negra con un desenfoque */  
+}
+
+.packGreen{
+  color: #7CDA24;
+  font-size: 43px;
+  margin: 0px;
+  font-weight: 900;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 3); /* Sombra negra con un desenfoque */
+}
+
+.packBlack {
+  color: black;
+  font-size:14px;
+  font-weight: bold;
+}
+
+.pack button {
+  background-color: blue;
+  color: #FFFFFF;
+  width: 325px;
+  height: 80px;
+  border-radius: 50px; /* Redondear los bordes */ 
+  font-size: 20px;
+  font-weight: bold;
+} 
+.b {
+  color: #FFFFFF;
+  background-color:  #0c71c3;
+  font-size: 14px;
+  padding-top: 30px;
+  text-align: center;
+}
+.PackTittleWhite {
+  font-size: 40px;
+  font-weight: 900;
+  margin: 2px;
+  line-height: 30px;
+}
+
+.subtittle1{
+  font-size: 30px;
+  font-weight: 900; 
+  padding: 1px;
+}
+
+.subtittle2{
+  font-size: 19px;
+  font-weight: bold;
+  margin: 2px;
+}
+
+.c {
+  background-color: #00e5ff;
+  text-align: center;
+}
+
+.bigTitle2 p{
+  font-size: 30px;
+  color: black;
+  font-weight: 900;
+  margin: 2px;
+}
+/* ----------------------------------------------------------------------------------------Bonus Section */
+.bonusSection {
+  background-image: url(https://mentors.expert/wp-content/uploads/2024/03/BACK2.jpg), linear-gradient(180deg, #cecfcf 0%, #7f7f81c5 100%) !important;
+  background-repeat: no-repeat; 
+  background-size: cover; /* Hace que la imagen cubra todo el área del fondo */
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.bonusTitleContent{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.bonusTitle  {
+  width: 70%;
+  padding: 15PX;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 21px;
+  color: white;
+}
+
+.BonusBigTitle{
+  color: white;
+  border-top: 0.5px solid #b32d2e;
+  border-bottom: 0.5px solid #b32d2e;
+  font-size: 75px;
+  padding: 25px;
+  margin: 20px;
+  width: 90%;
+  text-align: center;
+  font-weight: 900;
+}
+
+.bonusContent {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap; 
+  width: 65%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.bonus{
+  display: flex;
+  align-items: center;
+  flex-direction: column;    
+  overflow: hidden; /* Evita que el contenido desborde el div */ 
+  text-align: center;
+  width: 45%;
+  color: white;
+}
+
+.bonusNumber{
+  font-size: 40px; 
+  background-color: #00a2ff;
+  width: 70%;
+  font-weight: 900;
+}
+
+.bonusDescription{
+  font-size: 25px;
+  width: 85%;
+}
+
+.bonusPrice{
+   color: #f34d16;
+   font-size: 25px;
+   font-weight: 900;
+}
+
+.bonusFooterContent{
+  background-blend-mode: multiply;
+  background-image: url(https://mentors.expert/wp-content/uploads/2024/03/BACK1.jpg), linear-gradient(180deg, #00a2ff 0%, #35d3ff 100%) !important;   
+  background-size: cover; /* Hace que la imagen cubra todo el área del fondo */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */ 
+  padding: 40px;
+}
+
+.bonusFooter {
+  color: white;
+  font-weight: 900;
+  font-size: 33px;
+}
+/* ---------------------------------------------------------------------------------------- TESTiMONIOS Section */
+.testiContainer{
+  background-image: url(https://mentors.expert/wp-content/uploads/2024/03/BACK2.jpg), linear-gradient(180deg, #191a1a 0%, #7f7f81c5 100%) !important; 
+  background-size: cover; /* Hace que la imagen cubra todo el área del fondo */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.videoContent{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap; 
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.descriptionTesti{
+  width: 75%;
+  font-size: 28px;
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.tittleTesti{
+  color: #00A2FF;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.videoTesti{
+  margin: 10px;
+  max-width: 600px; /* Tamaño máximo del video */
+  border: solid white;
+  border-radius: 15px; /* Redondear los bordes */
+  overflow: hidden; /* Evitar que el contenido sobresalga del borde */
+}
+
+.videoTesti video {
+width: 100%; /* Hace que el video ocupe todo el ancho del contenedor */
+height: auto; /* Mantiene la proporción del video */
+}
+/* ---------------------------------------------------------------------------------------- Profile Section */
+.profileSection{
+  background-image: url(https://mentors.expert/wp-content/uploads/2024/03/BACK2.jpg), linear-gradient(180deg, #191a1a 0%, #7f7f81c5 100%) !important; 
+  background-size: cover; /* Hace que la imagen cubra todo el área del fondo */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 19px;
+  
+}
+
+.titleProfile {
+  color: #00A2FF;
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 0px;
+  border-top: 0.5px solid #b32d2e;
+  border-bottom: 0.5px solid #b32d2e;
+}
+
+.profileContent{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: 20px;
+}
+
+.profileText{
+  border: 0.5px solid #b32d2e;
+  border-radius: 15px; /* Redondear los bordes */
+  overflow: hidden; /* Evitar que el contenido sobresalga del borde */
+  width: 25%;
+  margin: 15px;
+  padding: 15px;
+}
+.cardContent{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden; /* Evitar que el contenido sobresalga del borde */
+  width: 60%;
+}
+
+.cartTitle{
+  font-size: 28px;
+  margin: 20px;
+  max-width: 1100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.cardDescription{
+  font-size: 25px;
+  color: #1fd7e0;
+  margin: 30px 0px 10px 00px;
+}
+
+.cardAutor{
+  margin-bottom: 30px;
+}
+/* ---------------------------------------------------------------------------------------- Benefits Section */
+.benefitsContent{
+  background-blend-mode: multiply;
+  background-image: url(https://mentors.expert/wp-content/uploads/2024/03/BACK1.jpg), linear-gradient(180deg, #00a2ff 0%, #35d3ff 100%) !important;   
+  background-size: cover; /* Hace que la imagen cubra todo el área del fondo */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */ 
+  text-align: center;
+  padding: 30PX;
+  color: white;
+  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cardBenefitsContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 19px;
+  width: 75%;
+}
+
+.oneTitle{
+  color: #1FD7E0;
+  border-top: 0.5px solid #b32d2e;
+  border-bottom: 0.5px solid #b32d2e;
+  font-size: 39px;
+  padding: 25px;
+  margin: 40px 20px 20px 20px;
+  width: 90%;
+  text-align: center;
+}
+
+.despleCardContent{
+  display: flex;
+  justify-content: space-between; /* Distribuye el espacio equitativamente entre los elementos */
+}
+
+.cardBenefits{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 48%;
+}
+
+.despleCard {
+  display: flex;
+  justify-content: space-between; /* Distribuye el espacio equitativamente entre los elementos */
+  align-items: center; /* Alinea verticalmente al centro */
+  border-bottom: 0.5px solid #007aff;
+  width: 100%;
+  padding: 10px  0;
+}
+
+.despleList{
+  border-bottom: solid #007aff;
+  text-align: start;
+  height: auto;
+  overflow: hidden;
+  transition: height s ease-in-out;
+  width: 100%;
+}
+.despleCard button{
+background-color: #EDF000; 
+border-radius: 50%;
+margin-left: 5px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  padding: 5px 0;
+}
+/* ---------------------------------------------------------------------------------------- Time Section Section */
+
+.TimeSection{
+  text-align: center;
+  background-blend-mode: multiply;
+  background-image: url(https://mentors.expert/wp-content/uploads/2024/03/BACK2.jpg), linear-gradient(180deg, #191a1a 0%, #7f7f81c5 100%) !important;   
+  background-size: cover; /* Hace que la imagen cubra todo el área del fondo */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  padding-top: 70px;
+}
+
+.errorContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  color: white;
+}
+
+.errorCard{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.timeTitle{
+  margin-top: 40px;
+  font-size: 43px;
+  text-align: center;
+}
+
+.timeScore{
+  color: #1FD7E0;
+  font-size: 74px;
+  font-weight: 900;  
+}
+
+.errorTitle{
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.errorTitle span{
+  color: #00a2ff;
+}
+
+.errors {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.errors img{
+  max-width: 100%;
+  height: auto; /* Mantiene la proporción de la imagen */
+  display: block; /* Elimina el espacio en línea que podría causar desbordamiento */
+}
+
+.timeFooter{
+  background-color: red;
+  font-size: 39px;
+  padding: 15px;
+  font-weight: bold; 
+  width: 100%; 
+}
+/* ---------------------------------------------------------------------------------------- Mentors Section */
+.mentorsSection{
+background-blend-mode: multiply;
+background-image: url(https://mentors.expert/wp-content/uploads/2024/03/BACK1.jpg), linear-gradient(180deg, #00a2ff 0%, #35d3ff 100%) !important;   
+background-size: cover; /* Hace que la imagen cubra todo el área del fondo */
+background-position: center; /* Centra la imagen */
+background-repeat: no-repeat; /* Evita que la imagen se repita */ 
+font-size: 23px;
+color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+
+.mentorTitle{
+  font-size: 44px;
+  color: #00a2ff;
+  font-weight: 900;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+.mentorName{
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.mentorCard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+
+.mentorCard img{
+  max-width: 100%;
+}
+.mentors {
+  display: flex;
+  justify-content:  center;
+  width: 85%;
+}
+
+.mentorsCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+  width: 48%;
+  margin: 15px;
+  line-height: 24px;
+}
+
+/* ---------------------------------------------------------------------------------------- Recap Section */
+.recapSeption{
+  background-image: url(https://mentors.expert/wp-content/uploads/2024/03/BACK2.jpg), linear-gradient(180deg, #191a1a 0%, #7f7f81c5 100%) !important; 
+  background-size: cover; /* Hace que la imagen cubra todo el área del fondo */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.recapTitle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.recapTitle1{
+  background-color: #E09900;
+  font-size: 40px;
+  font-weight: bold;
+  color: #000000;
+  width: 70%;
+}
+.recapTitle2{
+  background-color: #00a2ff;
+  font-size: 40px;
+  font-weight: bold;
+  color: #000000;
+  width: 90%;
+  margin-top: 15px;
+}
+
+.recapTitle3{
+  font-size: 44px;
+  font-weight: 900;
+  color: white;
+  margin-top: 15px;
+}
+
+.recapTitle4{
+  color: #F34D16;
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+/* ---------------------------------------------------------------------------------------- Recap Section */
+
+.questionSection{
+background-blend-mode: multiply;
+background-image: url(https://mentors.expert/wp-content/uploads/2024/03/BACK1.jpg), linear-gradient(180deg, #00a2ff 0%, #35d3ff 100%) !important;   
+background-size: cover; /* Hace que la imagen cubra todo el área del fondo */
+background-position: center; /* Centra la imagen */
+background-repeat: no-repeat; /* Evita que la imagen se repita */ 
+color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px;
+font-size: 23px;
+}
+
+.garantContent{
+  display: flex;
+  justify-content: center;
+  font-size: 37px;
+  margin-top: 40px;
+  width: 60%;
+  
+}
+
+.blueQuestion{
+  color: #007aff;
+}
+
+.questionsContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;  
+}
+
+.dcqs{
+  display: flex;
+  justify-content: center;
+}
+
+.despleCardTree{
+  margin: 30px;
+  width: 45%;
+}
+
+.despleCardQ{
+  display: flex;
+  justify-content: space-between; /* Distribuye el espacio equitativamente entre los elementos */
+  align-items: center; /* Alinea verticalmente al centro */
+  border: 0.5px solid white;
+  width: 100%;
+  padding: 20px;
+  margin: 3px;
+}
+
+.despleCardQ button{
+  background-color: #EDF000; 
+  border-radius: 50%;
+  margin-left: 5px;
+  }
+
+  .despleCardContents {
+    max-height: 0; /* Inicialmente cerrado */
+    overflow: hidden;
+    transition: max-height 1s ease; /* Efecto de transición lenta */
+  }
+  
+  .despleCardContents.show {
+    max-height: 500px; /* Ajusta el valor según lo necesario */
+    transition: max-height 1s ease; /* Efecto de transición lento */
+  }
+
+/* ---------------------------------------------------------------------------------------- Whatsapp Section */
+
+.whatsappSection{
+  background-image: url(https://mentors.expert/wp-content/uploads/2023/03/B6-1.jpg) !important;
+  color: white;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.whatsappContent{
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  overflow: hidden; /* Oculta el desbordamiento de la imagen */
+}
+
+.whatsappContent img {
+  width: 100%; /* O ajustar con max-width */
+  height: auto;
+}
+
+.whatsappText{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  width: 45%;
+  margin-right: 20px;
+}
+
+.whatsappTitle{
+  font-size: 40px;
+}
+.whatsappContent button{
+  background-color: #2dff38;
+  width: 350px;
+  height: 64px;
+  border-radius: 15px;
+  border: #2dff38;
+  font-size: 28px;
+  color: #000000;
+  font-weight: bold;
+  margin-top: 20px;
+}
+/* ---------------------------------------------------------------------------------------- Footer Section */
+.footerSection{
+  background-color: #000000;
+  color: gray;
+  padding: 30px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.footerContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  text-align: center;
+  line-height: 24px;
+}
+
+/* Media Query para pantallas pequeñas ------ Media Query para pantallas pequeñas ----- Media Query para pantallas pequeñas ---- Media Query para pantallas pequeñas */  
+@media (max-width: 600px) {
+  
+  nav a {
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: 900;
+}
+ /* ---------------------------------------------------------------------------------------- App container */
+ .app-container {
+  background-size: cover;  
+}
+
+.nav-image {
+    width: 100%; /* Asegura que el contenedor tenga un ancho del 100% */
+    object-fit: cover;
+}
+
+.nav-image img {
+    max-width: 80%; /* Redimensiona la imagen para pantallas más pequeñas */
+    height: auto;
+}
+
+.text1 {
+    width: 95%; /* Aumenta el ancho del texto en pantallas pequeñas */
+}
+
+.headline {
+  font-size: 24px; 
+  margin: 20px 0px 9px;
+  width: 95%;
+}
+
+.highlight2 {
+  font-size: 19px;
+  width: 85%;
+  margin-bottom: 5px;
+}
+
+.highlight3 {
+  font-size: 15px;
+  width: 80%;
+}
+/* ---------------------------------------------------------------------------------------- Video Section */
+.video {
+  
+  max-width: 100%; /* En pantallas pequeñas, el video ocupa el ancho completo */
+ }  
+
+/* ---------------------------------------------------------------------------------------- Pack Section */
+.bigTitle {
+  font-size: 29px;
+  margin-top: 24px; 
+}
+
+.bigTitle1{
+  font-size: 17px;
+}
+
+.packContainer {
+          
+  flex-direction: column; /* Cambia a una disposición en columna */
+  align-items: center; /* Centra los divs en la columna */
+  gap: 10px; /* Reduce el espacio entre los divs en pantallas pequeñas */
+}
+
+.pack {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  width: 80%; /* Ajusta el ancho de los divs para que se adapten mejor a la pantalla */
+  height: auto; /* Permite que el div se expanda en altura si es necesario */
+  white-space: normal; /* Permite que el texto se divida en varias líneas en pantallas pequeñas */
+  word-wrap: break-word; /* Permite que las palabras largas se dividan en varias líneas */
+}
+
+.packDescription{
+  font-size: 18px;
+}
+/* ----------------------------------------------------------------------------------------Bonus Section */
+.bonusContent {
+  flex-direction: column;
+  align-items: center; 
+  width: 100%;   
+}
+
+.bonus{    
+  width: 80%;
+}
+
+.BonusBigTitle{
+  font-size: 40px;
+}
+/* ----------------------------------------------------------------------------------------Testimonios Section */
+
+.descriptionTesti{
+  font-size: 24px;
+}
+
+.tittleTesti{
+  font-size: 26px;
+}
+
+.videoTesti{
+  width: 85%;
+}
+
+/* ---------------------------------------------------------------------------------------- Profile Section */
+.cardDescription{  
+  font-size: 16px;  
+}
+.titleProfile{
+  font-size: 20px;
+}
+
+.cardAutor{
+  font-size: 16px;  
+}
+.profileContent{
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+.profileText{
+   width: 80%;  
+}
+
+.card{
+  width: 90%;
+}
+
+/* ---------------------------------------------------------------------------------------- Benefits Section */
+
+.despleCardContent, .cartTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 19px;
+}
+
+.oneTitle{
+  font-size: 26px;
+}
+
+.cardBenefitsContent{
+  width: 85%;
+}
+
+.cardBenefits{
+  width: 100%;
+}
+
+/* ---------------------------------------------------------------------------------------- Time Section Section */
+.timeTitle{
+  font-size: 22px;
+}
+
+.timeScore{
+  font-size: 26px; 
+}
+
+.errorTitle{
+  font-size: 19px;
+}
+.errors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.timeFooter{
+  font-size: 19px;  
+}
+
+/* ---------------------------------------------------------------------------------------- Mentors Section */
+
+.mentorsSection{
+  font-size: 16px;
+}
+
+.mentorTitle{
+  font-size: 23px; 
+}
+
+.mentors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+}
+
+.mentorsCard {
+  width: 80%;
+  
+}
+
+/* ---------------------------------------------------------------------------------------- Recap Section */
+.recapTitle1{  
+  font-size: 30px;  
+}
+.recapTitle2{  
+  font-size: 24px;
+}
+
+.recapTitle3{
+  font-size: 26px;  
+}
+/* ---------------------------------------------------------------------------------------- Questions Section */
+.garantContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  font-size: 20px; 
+  width: 80%;
+}
+
+.garantContent img{
+  width: 80%;
+}
+
+.questionsContent {
+  width: 70%;
+}
+
+.questionSection{
+  font-size: 20px;
+}
+
+.dcqs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.despleCardTree{
+  width: 100%;
+  margin: 0px;
+}
+
+.despleCardQ{
+  width: 85%;
+}
+
+/* ---------------------------------------------------------------------------------------- Whatsapp Section */
+
+.whatsappContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.whatsappText{
+  width: 90%;
+  text-align: center;
+}
+
+.whatsappText button{
+  width: auto;
+}
+/* ---------------------------------------------------------------------------------------- Whatsapp Section */
+.footerContent img{
+  max-width: 100%;
+}
+
+}
+
+
